@@ -1,0 +1,15 @@
+
+```python
+from gtts import gTTS
+
+# Welcome message text
+welcome_message = "Welcome to Rakib Tools."
+
+# Create a gTTS object
+tts = gTTS(text=welcome_message, lang='en')
+
+# Save the audio to a file
+tts.save('welcome_voice_note.mp3')
+
+print("Welcome voice note created successfully!")
+```
